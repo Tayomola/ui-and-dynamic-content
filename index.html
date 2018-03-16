@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tayo's Shopping List</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       
+    <div class="wrapper">
+        <header>
+          <div class="cart">
+             <img src="./img/cart3.png">
+           </div>
+            <div class="masthead">
+                <h1>Buy Groceries</h1>
+            </div>
+        </header>
+          
+            <main>
+                <div id="groceries">
+                    <h2>What do yo need to buy today?</h2>
+                    
+                    <div class="text-input" align="center"> 
+                       <input type="text" id="yourInput" placeholder="your items here..." required>
+                    </div>
+                    
+                    <div class="btn-input" align="center">
+                        <input type="button" id="clickButton" value="Add to list"> 
+                    </div>  
+                    
+                     <p id="feedback"></p>
+                      
+                    <ul id="boughtList"></ul>
+               </div> 
+        </main>
+    
+    
+    <footer>
+       <div class="social media icons box">
+           <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+           <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+           <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+        </div>
+        <p>592, Aquaview Drive, Ottawa, ON, K4A 4V8 613-981-4286</p>
+        <p>Copyright &copy; Creative Designs</p>
+    </footer>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>

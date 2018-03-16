@@ -1,0 +1,156 @@
+.wrapper {
+    width: 45rem;
+/*	margin: 1em auto;    */
+    border-radius: 10px;
+    background-color: white;
+    border: solid 2px grey;
+    background-image: url('../img/brown.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+body {
+    background-color: antiquewhite;
+    line-height: 1.5;
+}
+
+.masthead h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-top: -25px;
+
+}
+
+.masthead {
+    top: -30px;
+}
+
+.cart {
+   width: 50%;
+   align-content: center;
+   margin-left: 170px;
+   padding-bottom: -20px;
+   
+}
+
+.btn-input {
+    padding-top: 30px;
+}
+
+#yourInput {
+/*    align-self: center;*/
+    width: 494px;
+    height: 50px;
+}
+
+#clickButton {
+    width: 500px;
+    height: 50px;
+}
+
+#feedback {
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center
+}
+
+#boughtList {
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    color: ghostwhite;
+    
+}
+
+
+p {
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+}
+
+input {
+    color: black;
+    background-color: white;
+}
+
+[type="button"] {
+    cursor: pointer;
+    font-family: 'Patua One', 
+    cursive;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 1.2rem; 
+    border: 1px solid deepskyblue;;
+    background-color: deepskyblue;;
+    color: white;
+}
+
+[type="button"]:hover {
+    border: 1px solid blue;
+    background-color: blue;
+    color: whitesmoke;
+}
+[type="button"]:active {
+    border: 1px solid deepskyblue;;
+    background-color: deepskyblue;;
+    color: #FFF;
+}
+
+[type="text"] {
+    font-family: 'Patua One', cursive;
+    font-size: 1rem;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+}
+
+/* YouTube */
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+
+footer {
+        text-align: center;
+		clear: both;
+	}
+
